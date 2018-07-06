@@ -73,7 +73,11 @@ let result3 = bubbleSort3(array: array)
 // Count of operations in bubbleSort3: 63
 assert(result3 == sortedArray, "Error happened!")
 
-bubbleSort3(array: sortedArray)
+
+print("Comparing, unsored array: \(bubbleSort3(array: array))")
+// Count of operations in bubbleSort3: 63
+print("Comparing, sorted array: \(bubbleSort3(array: sortedArray))")
+// Count of operations in bubbleSort3: 12
 
 
 func bubbleSort4(array: [Int]) -> [Int] {
